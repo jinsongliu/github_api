@@ -1,0 +1,42 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    coderay (1.0.8)
+    crack (0.3.1)
+    hashie (0.2.2)
+    httparty (0.4.5)
+      crack (>= 0.1.1)
+    i18n (0.6.1)
+    json (1.2.0)
+    mail (2.4.4)
+      i18n (>= 0.4.0)
+      mime-types (~> 1.16)
+      treetop (~> 1.4.8)
+    method_source (0.8.1)
+    mime-types (1.19)
+    octopussy (0.2.3)
+      hashie (~> 0.2.0)
+      httparty (~> 0.4.5)
+    polyglot (0.3.3)
+    pony (1.0)
+      mail (> 2.0)
+    pry (0.9.10)
+      coderay (~> 1.0.5)
+      method_source (~> 0.8)
+      slop (~> 3.3.1)
+    rest-client (1.6.7)
+      mime-types (>= 1.16)
+    slop (3.3.3)
+    treetop (1.4.11)
+      polyglot
+      polyglot (>= 0.3.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  json (= 1.2.0)
+  octopussy (= 0.2.3)
+  pony (= 1.0)
+  pry
+  rest-client
